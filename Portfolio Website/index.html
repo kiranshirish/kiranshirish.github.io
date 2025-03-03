@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/coco.ico">
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Kiran's Portfolio</title>
+</head>
+<body>
+    <div>
+        <div class="navbar-placeholder"></div>
+        <nav class="navbar flex">
+            <a href="#home"><img src="./assets/coco.ico" alt="logo" class="animation"></a>
+            <i class="fa-solid fa-bars animation"></i>
+            <div class="nav-menu flex">
+                <i class="fa-solid fa-x animation"></i>
+                <a href="#home" class="animation">Home</a>
+                <a href="#about" class="animation">About</a>
+                <a href="#work" class="animation">Portfolio</a>
+            </div>
+            <a href="#contact" class="btn nav-btn animation">Contact</a>
+        </nav>
+    </div>
+
+     <!-- hero -->
+     <div class="hero flex" id="home">
+        <img src="./assets/ProfilePicture2.jpg" alt="web dev">
+        <h1><span class="text-effect">I'm Kiran Shirish,</span> a biomedical engineering senior </span> at UC Davis.</h1>
+        <a href="./assets/KiranShirish Resume (1).pdf" class="hero-resume animation" target="_blank" rel="noopener noreferrer">Resume</a>
+    </div>
+
+      <!-- about -->
+      <section class="container flex" id="about">
+        <div class="container-title">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-sections flex">
+            <div class="about-left flex">
+                <img src="./assets/seniordesign.jpg" alt="web dev">
+            </div>
+            <div class="about-right flex">
+                <p>I currently specialize in biomechanics and medical devices, and am very interested in neuroengineering and surgical robotics.
+                     Currently, I work as an undergraduate researcher at the Passerini Lab, where 
+                    I design new flow chambers to aid in microfluidics research of atherosclerosis and its causes. In my free time, I love to work out, cook, 
+                    and spend time outdoors.
+                </p>
+            </div>
+        </div>
+    
+     <!-- work -->
+     <main class="container flex" id="work">
+        <div class="container-title">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="work-list">
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/senior_design_prototype.jpg" alt="Project 1 Image 1">
+                    <img src="./assets/senior_design_cad.png" alt="Project 1 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Senior Design - UC Davis (Ongoing)</h3>
+                    <p>
+                        My team and I are working with orthopedic surgeons and prosthesists at the UC Davis Medical
+                        center to develop an orthotic device that restores elbow function to brachaial plexus injury
+                        patients. We are utilizing a gas strut to provide lifting assistance and locking capabilities
+                        in order to keep the device lightweight and ergonomic. My team is in the picture above!
+                    </p>
+                </div>
+            </div>
+
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/flow_chamber_assem.png" alt="Project 1 Image 1">
+                    <img src="./assets/flow_chamber_cross.png" alt="Project 1 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Laminar Flow Chamber - Passerini Lab (Ongoing)</h3>
+                    <p>
+                        To replicate the laminar flow our endothelial cells experience in our blood vessels,
+                        I am designing a flow chamber with parallel plates to subject cultured cells to ideal
+                        flow conditions. The gap height is 250 microns, just over two human hairs in width! These 
+                        chambers are currently being printed with SLA 3D printing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/makeathon_2025_prototype.jpg" alt="Project 2 Image 1">
+                    <img src="./assets/makeathon_2025_cad.png" alt="Project 2 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Make-A-Thon 2025 - UC Davis BMES</h3>
+                    <p> My team and I designed a pill splitter for patients with neuropathy and partial blindess.
+                        We were one of 3 out of 15 teams selected to move forward to the prototyping stage in this 
+                        48 hour design competition hosted by BMES. Our prototype was capable of splitting pills of 
+                        all shapes and sizes, and we won the Most Creative Prototype award for our device.
+                    </p>
+                </div>
+            </div>
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/hamilton_camera_mount.jpg" alt="Project 2 Image 1">
+                    <img src="./assets/hamilton_camera_mount2.jpg" alt="Project 2 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Hamilton Camera Mount - Exact Sciences</h3>
+                    <p> Liquid handling systems such as the Hamilton are incredibly efficient, but prone 
+                        to error. I designed these camera mounts to slide into the
+                        machine, allowing service engineers to monitor the machines and diagnose failures
+                         with minimal interference to the clinical scientist team.
+                    </p>
+                </div>
+            </div>
+
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/kingfisher_camera_mount.jpg" alt="Project 2 Image 1">
+                    <img src="./assets/kingfisher_camera_mount_cad.jpg" alt="Project 2 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>KingFisher Camera Mount - Exact Sciences</h3>
+                    <p> Another camera mount I engineered was designed to slot under the tables
+                        to watch the KingFisher centrifuges. These were designed to be cheap,
+                        lightweight, and to keep the camera out of the way of clinical scientists.
+                    </p>
+                </div>
+            </div>
+
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/flow_reservoir_use.jpg" alt="Project 2 Image 1">
+                    <img src="./assets/flowreservoir_CAD.png" alt="Project 2 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Flow Reservoir - Passerini Lab</h3>
+                    <p> I designed these flow reservoirs to be SLA 3D printed out of surgical guide, and 
+                        used specific fittings and o-rings to provide a water-tight connection. The finished design
+                        can be sterilized in the autoclave, traps bubbles effectively, and can stack securely with 
+                        other reservoirs through a dovetail joint.</p>
+                </div>
+            </div>
+
+            <div class="work-item flex">
+                <div class="work-images">
+                    <img src="./assets/makeathon_2024_cad.jpg" alt="Project 2 Image 1">
+                    <img src="./assets/makeathon_2024_cad2.png" alt="Project 2 Image 2">
+                </div>
+                <div class="work-description">
+                    <h3>Make-A-Thon 2024 - UC Davis</h3>
+                    <p> In the 2024 Make-A-Thon, my team and I designed a portable, easily deployable
+                        desk for people in wheelchairs to use as they went about their daily activities.
+                        The desk would be stowed under the seat when not in use, and would be able to be
+                        quickly deployed with one arm. We took home the Most Creative Design award at this 
+                        competition.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Add more projects as needed -->
+        </div>
+
+        <section class="container flex" id="contact">
+            <div class="container-title">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-section flex">
+                <div class="contact-left flex">
+                    <h2 class="text-effect">Send me a message!</h2>
+                    <p>Contact me about employment or projects:</p>
+                    <div class="contact-details flex">
+                        <div class="contact-detail flex">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>kiran.shirish@gmail.com</p>
+                        </div>
+                        <div class="contact-detail flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(650) 660 4935</p>
+                        </div>
+                        <div class="contact-detail flex">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>CA, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/kiran.shirish@gmail.com" method="POST" class="contact-right flex">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <label for="message">Enter a message</label>
+                    <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+                
+                    <button type="submit" class="btn animation">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    </section>
+      <!-- footer -->
+      <footer class="flex">
+        <div class="footer-top flex">
+            <div class="footer-top-left">
+                <img src="./assets/coco.ico" alt="logo">
+            </div>
+            <div class="footer-top-right">
+                <p></p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>Credit to Kalman Web Design on Youtube for the web development tutorial.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
