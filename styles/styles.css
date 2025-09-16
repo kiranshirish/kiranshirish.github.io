@@ -470,7 +470,11 @@ footer hr {
 
 /* Medium phones to tablets (481px–767px) */
 @media (max-width: 767px) {
-
+    .hero img {
+        width: 100%;
+        max-width: 25rem;
+    }
+    
     .navbar {
         padding: 1rem 2rem;
     }
