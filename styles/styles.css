@@ -86,8 +86,9 @@ body {
 }
 
 .hero img {
-    width: 15%;
-    max-width: 15rem;
+    width: 100%;
+    max-width: 15rem;  /* controls how big it can get */
+    height: auto;
 }
 
 .hero h1,
@@ -469,17 +470,6 @@ footer hr {
 
 /* Medium phones to tablets (481px–767px) */
 @media (max-width: 767px) {
-
-    .hero h1,
-    .hero span {
-        font-size: 1.5rem;
-        padding: 0 1rem;
-    }
-
-    .hero img {
-        width: 100%;
-        max-width: 10rem;
-    }
 
     .navbar {
         padding: 1rem 2rem;
