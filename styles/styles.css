@@ -435,7 +435,10 @@ footer hr {
         width: 100%;
         max-width: 25rem;
     }
-
+    .about-sections {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .container {
         margin: 2rem 1rem 5rem;
         gap: 2rem;
@@ -486,6 +489,12 @@ footer hr {
     .container {
         margin: 3rem 2rem 6rem;
     }
+
+    .about-sections {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 
     .about-achievements {
         flex-direction: column;
