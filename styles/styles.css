@@ -432,8 +432,8 @@ footer hr {
     }
 
     .hero img {
-        width: 40%;
-        max-width: 10rem;
+        width: 100%;
+        max-width: 15rem;
     }
 
     .container {
@@ -489,7 +489,7 @@ footer hr {
     }
 
     .about-achievements hr {
-        width: 50%;
+        width: 100%;
     }
 
     .footer-top-right {
