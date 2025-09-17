@@ -524,6 +524,12 @@ footer hr {
     .work-item {
         flex-direction: column;
     }
+    
+    
+    .about-sections {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .work-images img {
         width: 100%;
