@@ -1,12 +1,10 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QH0LDXLE51"></script>
-<script>
+
+async src="https://www.googletagmanager.com/gtag/js?id=G-QH0LDXLE51"
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-QH0LDXLE51');
-</script>
 
 const navOpen = document.querySelector('.fa-bars');
 const navClose = document.querySelector('.fa-x');
@@ -31,6 +29,7 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     navClose.style.display = "none";
   });
 });
+
 
 
 
