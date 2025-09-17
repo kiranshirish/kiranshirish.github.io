@@ -13,11 +13,24 @@ const navClose = document.querySelector('.fa-x');
 const nav = document.querySelector('.nav-menu');
 
 navOpen.addEventListener('click', () => {
-    nav.style.right = "0";
-})
+    nav.style.right = "0";          // show menu
+    navOpen.style.display = "none"; // hide hamburger
+    navClose.style.display = "block"; // show close button
+});
 
 navClose.addEventListener('click', () => {
+    nav.style.right = "-20rem";     // hide menu
+    navOpen.style.display = "block"; // show hamburger
+    navClose.style.display = "none"; // hide close button
+});
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+  link.addEventListener('click', () => {
     nav.style.right = "-20rem";
-})
+    navOpen.style.display = "block";
+    navClose.style.display = "none";
+  });
+});
+
 
 
