@@ -1,9 +1,3 @@
-// Google Analytics setup
-window.dataLayer = window.dataLayer || [];
-function gtag(){ dataLayer.push(arguments); }
-gtag('js', new Date());
-gtag('config', 'G-QH0LDXLE51');
-
 // Navbar toggle
 const navOpen = document.querySelector('.fa-bars');
 const navClose = document.querySelector('.fa-x');
