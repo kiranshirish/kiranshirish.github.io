@@ -469,6 +469,29 @@ footer hr {
         font-size: 1rem;
         padding: 0.8rem 1.5rem;
     }
+
+    .contact-section {
+    flex-direction: column;
+    gap: 2rem; /* reduce the gap a bit for mobile */
+    padding: 0 1rem; /* add breathing room from edges */
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%; /* make them stack full width */
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    width: 100%; /* take full width instead of fixed rem */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-right textarea {
+    min-height: 8rem; /* more comfortable typing area */
+  }
+
 }
 
 /* Medium phones to tablets (481px–767px) */
@@ -508,6 +531,28 @@ footer hr {
     .footer-top-right {
         width: 100%;
     }
+    .contact-section {
+    flex-direction: column;
+    gap: 2rem; /* reduce the gap a bit for mobile */
+    padding: 0 1rem; /* add breathing room from edges */
+    }
+
+  .contact-left,
+  .contact-right {
+        width: 100%; /* make them stack full width */
+    }
+
+  .contact-right input,
+  .contact-right textarea {
+        width: 100%; /* take full width instead of fixed rem */
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+  .contact-right textarea {
+        min-height: 8rem; /* more comfortable typing area */
+    }
+    
 }
 
 /* Tablets (768px–1024px) */
@@ -535,4 +580,27 @@ footer hr {
         width: 100%;
         max-width: 300px;
     }
+
+    .contact-section {
+    flex-direction: column;
+    gap: 2rem; /* reduce the gap a bit for mobile */
+    padding: 0 1rem; /* add breathing room from edges */
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%; /* make them stack full width */
+  }
+
+  .contact-right input,
+  .contact-right textarea {
+    width: 100%; /* take full width instead of fixed rem */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-right textarea {
+    min-height: 8rem; /* more comfortable typing area */
+  }
+  
 }
